@@ -36,4 +36,4 @@ I'm passionate about security and I believe understanding the OWASP Top 10 is fu
 
 ---
 
-Want to help or discuss something? Hit me up on [LinkedIn](https://www.linkedin.com/in/0xmuka/)
+Want to help or discuss something? Hit me up on  [LinkedIn](https://www.linkedin.com/in/0xmuka/) || [Twitter OR X](https://x.com/0xmuka)
