@@ -235,9 +235,8 @@ They test whether the system **correctly applies the rules** at runtime.
 * This presents an opportunity for an attacker to exploit this loophole and delete the orders of other users.
 </details>
 
----
 
-For safe access restrictions to be properly implemented, the code would look more like this:
+$-$For safe access restrictions to be properly implemented, the code would look more like this:
 
 <details>
 <summary>Answer</summary>
@@ -259,15 +258,11 @@ For safe access restrictions to be properly implemented, the code would look mor
 ```
 </details>
 
----
-
 ## Impact of Access Control Vulnerabilites
 
 ### Unauthorized access to application.
-* **C**onfidentiality - Access to other user's data.
-* **I**ntegrity - Access to update other user's data.
-* **A**vailability - Access to delete users.
+* **C**onfidentiality $-$ Access to other user's data.
+* **I**ntegrity $-$ Access to update other user's data.
+* **A**vailability $-$ Access to delete users.
 
 > #### Can some times be chained with other vulnerabilities to gain remote code excution (RCE) on the host operating system.
-
-### From the White Box and The Black Box Respictive?
