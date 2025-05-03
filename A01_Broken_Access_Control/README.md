@@ -243,7 +243,7 @@ They test whether the system **correctly applies the rules** at runtime.
 - This presents an opportunity for an attacker to exploit this loophole and delete the orders of other users.
 </details>
 
-$-$For safe access restrictions to be properly implemented, the code would look more like this:
+$-$ For safe access restrictions to be properly implemented, the code would look more like this:
 
 <details>
 <summary>Answer</summary>
@@ -289,7 +289,7 @@ $-$For safe access restrictions to be properly implemented, the code would look 
 > - Pure Black Box testing is too limited for our needs, so we’ll use a **Gray Box approach** — a mix of internal and external knowledge.
 > - When we mention "Black Box" here, we actually mean **Gray Box** for a more realistic test.
 
-## Black$-$box Testing
+## Black $-$ box Testing
 
 - **Map the Application** by running Burp Suite or ZAP in the background silently and thoroughly evaluating all functionalities of the application.
 
@@ -298,13 +298,13 @@ $-$For safe access restrictions to be properly implemented, the code would look 
 - Manipulate parameters that may influence access control decisions on the backend to test security mechanisms.
 - Automate testing processes using tools like the Autorize extension for efficient vulnerability discovery.
 
-## White$-$box Testing
+## White $-$ box Testing
 
 - Review the code to identify how access control is implemnted in the application.
   - System defaults to open.
   - weak or missing access control checks on functions / resources.
   - Missing access control rules for POST, PUT and DELETE methods at the API level.
-  - Relying solely on client$-$side input to perform access control decisions.
+  - Relying solely on client $-$ side input to perform access control decisions.
   - Validate potential access control vulnerabilities on a running application.
 
 ## How to exploit Access Control vulnerabilities?
