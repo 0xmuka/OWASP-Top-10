@@ -266,3 +266,32 @@ $-$For safe access restrictions to be properly implemented, the code would look 
 * **A**vailability $-$ Access to delete users.
 
 > #### Can some times be chained with other vulnerabilities to gain remote code excution (RCE) on the host operating system.
+## How to find Access Control Vulnerabilities?
+
+**White Box Testing:** The tester has full internal knowledge (code, architecture, access) to perform a deep, targeted analysis of vulnerabilities.
+
+**Black Box Testing:** The tester has zero prior knowledge, simulating an external attacker to assess real-world breach potential.
+
+**Gray Box Testing:** The tester has partial knowledge (user-level access or system overview), simulating an insider or partner with limited access to identify potential internal threats.
+
+> **Note:**
+>* Pure Black Box testing is too limited for our needs, so we’ll use a **Gray Box approach** — a mix of internal and external knowledge.
+>* When we mention "Black Box" here, we actually mean **Gray Box** for a more realistic test.
+
+## Black $-$ box Testing
+
+* **Map the Application** by running Burp Suite or ZAP in the background silently and thoroughly evaluating all functionalities of the application.
+
+* Identify instances where the web application interacts with the underlying operating system, revealing potential vulnerabilities.
+* Analyze how access control is implemented at each privilege level within the application.
+* Manipulate parameters that may influence access control decisions on the backend to test security mechanisms.
+* Automate testing processes using tools like the Autorize extension for efficient vulnerability discovery.
+ 
+## White $-$ box Testing
+
+* Review the code to identify how access control is implemnted in the application.
+  - System defaults to open.
+  - weak or missing access control checks on functions / resources.
+  - Missing access control rules for POST, PUT and DELETE methods at the API level.
+  - Relying solely on client$-$side input to perform access control decisions.
+  - Validate potential access control vulnerabilities on a running application.
