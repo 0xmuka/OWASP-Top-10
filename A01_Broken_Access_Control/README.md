@@ -326,7 +326,7 @@ $-$ For safe access restrictions to be properly implemented, the code would look
 
 ### Extentions
 
-#### **Burp Suite** [Burp Extention $-$ Autorize](https://portswigger.net/bappstore/f9bbac8c4acf4aefa4d7dc92a991af2f)
+#### **Burp Suite** [Burp Extention - Autorize](https://portswigger.net/bappstore/f9bbac8c4acf4aefa4d7dc92a991af2f)
 
 - > Autorize is a Burp Suite extension designed to help penetration testers automatically detect authorization vulnerabilities, which are often time-consuming to test manually during a web application security assessment.
 
