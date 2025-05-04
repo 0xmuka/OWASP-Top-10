@@ -1,6 +1,8 @@
 # 🔐 OWASP Top 10 Notes
 
-This section is dedicated to documenting and understanding the **OWASP Top 10** web application vulnerabilities.
+* This section is dedicated to documenting and understanding the **OWASP Top 10** web application vulnerabilities.
+  
+![image](https://github.com/user-attachments/assets/9536cc4c-4e3a-486b-83d9-0fc79d558ebb)
 
 ## 📌 Purpose
 
